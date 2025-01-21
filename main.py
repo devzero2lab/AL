@@ -8,9 +8,9 @@ model = pickle.load(open('model.pickle', 'rb'))
 
 
 # Page configuration
-st.set_page_config(page_title="Zscore Prediction", page_icon="🎓", layout="centered")
+st.set_page_config(page_title="Zscore Prediction App", page_icon="🎓", layout="centered")
 
-st.title("🎓 GCE AL Exam Zscore Prediction")
+st.title("🎓 GCE AL Exam Zscore Prediction APP")
 
 st.markdown(
     """
